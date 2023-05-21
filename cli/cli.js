@@ -1,4 +1,4 @@
-
+// 콘솔 입출력을 위한 ‘readline’모듈을 불러옴
 const readline = require('readline');
 
 // 사용자로부터 입력을 받기 위한 인터페이스 생성
@@ -122,9 +122,9 @@ async function startProgram() { // 비동기 함수(실행 흐름에 방해받�
 
   try {
     const greet = await askGreet();  // 인사말 입력 받기
-    const name = await askName();  // 이름 입력 받기
-    const age = await askAge();  // 나이 입력 받기
-    const job = await askJob();  // 직업 입력 받기
+    const name = await askName();    // 이름 입력 받기
+    const age = await askAge();      // 나이 입력 받기
+    const job = await askJob();      // 직업 입력 받기
     const grade = await askGrade();  // 등급 입력 받기
 
 
